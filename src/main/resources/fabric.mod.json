@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "spectral_memes",
+  "version": "${version}",
+  "name": "Spectral Memes",
+  "description": "Silly and fun stuff not suited for Spectrum's main content",
+  "authors": [
+    "DaFuqs",
+    "Maya"
+  ],
+  "contact": {
+    "repo": "https://github.com/DaFuqs/SpectralMemes"
+  },
+  "license": "lGPL3",
+  "icon": "assets/spectral_memes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.dafuqs.spectralmemes.client.SpectralMemesClient"
+    ],
+    "main": [
+      "de.dafuqs.spectralmemes.SpectralMemes"
+    ]
+  },
+  "mixins": [
+    "spectral_memes.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*"
+  }
+}

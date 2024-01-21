@@ -1,0 +1,29 @@
+{
+  "type": "spectrum:fusion_shrine",
+  "time": 600,
+  "experience": 2.0,
+  "fluid": "spectrum:liquid_crystal",
+  "ingredients": [
+    {
+      "item": "minecraft:end_rod"
+    },
+    {
+      "item": "spectrum:stratine_gem"
+    },
+    {
+      "item": "spectrum:stratine_fragments",
+      "count": 4
+    },
+    {
+      "item": "spectrum:purple_pigment",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "strat-plug:stratine_plug"
+  },
+  "world_conditions": [],
+  "start_crafting_effect": "nothing",
+  "during_crafting_effects": [],
+  "finish_crafting_effect": "single_visual_explosion_on_shrine"
+}
