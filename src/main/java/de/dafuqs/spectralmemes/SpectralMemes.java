@@ -5,10 +5,11 @@ import net.minecraft.util.*;
 
 public class SpectralMemes implements ModInitializer {
 	
-	public static final String MOD_ID = "spectrum_memes";
+	public static final String MOD_ID = "spectral_memes";
 	
 	@Override
 	public void onInitialize() {
+		SpectralMemesSoundEvents.register();
 		SpectralMemesItems.register();
 	}
 	
