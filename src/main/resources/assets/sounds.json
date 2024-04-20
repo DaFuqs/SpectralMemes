@@ -1,0 +1,8 @@
+{
+  "entity.kindling.love": {
+    "subtitle": "spectral_memes.subtitles.entity.kindling.love",
+    "sounds": [
+      "spectral_memes:entity.kindling.love"
+    ]
+  }
+}
